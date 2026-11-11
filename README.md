@@ -4,12 +4,9 @@ A Godot 4 editor plugin for batch-organizing, spacing out, and labeling 3D asset
 
 Usage:
 
-    In the FileSystem dock, select one or more .tscn files and right-click.
-
-    Choose "Add to Asset Zoo" from the context menu.
-
-    The plugin scans for scenes with the _zoo suffix. Select an existing *_zoo.tscn scene from the list, or create a new one.
-
+In the FileSystem dock, select one or more .tscn files and right-click.
+Choose "Add to Asset Zoo" from the context menu.
+The plugin scans for scenes with the _zoo suffix. Select an existing *_zoo.tscn scene from the list, or create a new one.
 Only .tscn files are placed; all other asset types are skipped.
 
 
