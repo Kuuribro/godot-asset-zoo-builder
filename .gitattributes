@@ -1,4 +1,8 @@
 * text=auto eol=lf
-/**        export-ignore
-/addons    !export-ignore
-/addons/** !export-ignore
+
+# Exclude repo root files and folders, but keep addons
+/.gitignore    export-ignore
+/README.md     export-ignore
+/LICENSE       export-ignore
+/icon.png      export-ignore
+/project.godot export-ignore
