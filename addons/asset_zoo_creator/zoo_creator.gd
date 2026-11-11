@@ -226,7 +226,8 @@ func _build_base_scene(scene_name: String) -> Node3D:
 		var floor_shape := CollisionShape3D.new()
 		var floor_box := BoxShape3D.new()
 		floor_box.size = Vector3(1000, 1, 1000)
-		floor_shape.position.y = -0.5
+		# Offset slightly to avoid collider overlay Z-fighting with floor in editor viewport
+		floor_shape.position.y = -0.51
 		floor_shape.shape = floor_box
 		floor_body.add_child(floor_shape)
 
