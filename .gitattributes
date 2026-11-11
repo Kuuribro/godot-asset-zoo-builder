@@ -2,6 +2,6 @@
 * text=auto eol=lf
 
 # Include only the addon in Asset Library downloads.
-/**        export-ignore
+/*        export-ignore
 /addons    !export-ignore
 /addons/** !export-ignore
